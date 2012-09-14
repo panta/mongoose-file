@@ -1,6 +1,6 @@
 {   "name": "mongoose-file"
   , "description": "Mongoose plugin adding a file field to a schema - useful for nodejs file uploads"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "homepage": "https://github.com/panta/mongoose-file"
   , "author": "Marco Pantaleoni <marco.pantaleoni@gmail.com>"
   , "dependencies": {
