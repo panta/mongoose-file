@@ -14,7 +14,7 @@
     , "mocha": ">= 1.4.2"
     , "chai": ">= 1.2.0"
   }
-  , "keywords": ["mongoose", "plugin", "plugins", "types", "file", "upload"]
+  , "keywords": ["mongoose", "plugin", "plugins", "types", "file", "upload", "express"]
   , "repository": {
       "type": "git"
     , "url": "git://github.com/panta/mongoose-file.git"
