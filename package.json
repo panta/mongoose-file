@@ -32,6 +32,7 @@
   }
   , "scripts": {
       "watch": "coffee -c -w  -o lib src"
+    , "prepublish": "cake build"
     , "test": "NODE_ENV=test node_modules/.bin/mocha --compilers coffee:coffee-script --timeout 10000 -R spec test/*.coffee"
   }
   , "main": "lib/index.js"
