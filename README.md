@@ -71,7 +71,7 @@ uploads = path.join(uploads_base, "u")
 
 SampleSchema = new Schema
   ...
-SampleSchema.plugin filePlugin
+SampleSchema.plugin filePlugin,
 	name: "photo"
 	upload_to: make_upload_to_model(uploads, 'photos')
 	relative_to: uploads_base
